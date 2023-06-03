@@ -56,8 +56,8 @@ function Employees() {
     setEmployees([...employees, newEmployee]);
   };
   return (
-    <div className='bg-gray-500 min-h-screen'>
-      <div className='flex flex-wrap justify-center my-2'>
+    <div className='app'>
+      <div className='flex flex-wrap justify-center'>
           {employees.map((employee) => {
             const editEmployee =(
               <EditEmployee 
