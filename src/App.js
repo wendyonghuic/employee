@@ -1,12 +1,13 @@
 import React from 'react'
-import Employee from './components/Employee';
-
+import Employees from './page/Employees';
+import Header from './components/Header';
 function App() {
   return (
-      <div>
-          <Employee />
-      </div>
+    <Header>
+      <Employees />
+    </Header>
   );
 }
-
 export default App;
+
+
